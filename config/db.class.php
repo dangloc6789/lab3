@@ -6,7 +6,7 @@
                 $config=parse_ini_file("config.ini");
                 self::$connection=new mysqli("localhost", $config["username"], $config["password"],$config["databasename"]);
             }
-            if (!isset(self::$connection)){
+            if (self::$connection==false){
                 return false;
             }
             return self::$connection;
