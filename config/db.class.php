@@ -13,8 +13,9 @@
         }
         public function query_execute($queryString){
             $connection=$this->connect();
+            $connection->query("SET NAME utf8");
             $result=$connection->query($queryString);
-            $connection->close();
+            // $connection->close();
             return $result;
         }
         public function select_to_array($queryString){

@@ -3,7 +3,8 @@
     <head>
         <meta charset='utf-8'>
         <meta name="author" content="nguyendinhanh"/>
-        <link href="/lab3/site.css" rel="stylesheet"/>
+        <link href="/1-lab3/site.css" rel="stylesheet"/>
+        <link href="/1-lab3/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
         <title>Project training -website ban hang</title>
     </head>
     <body>
